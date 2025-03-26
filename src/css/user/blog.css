@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bgblack_nav {
+  position: relative;
+  top: -8px;
+  height: 80vh;
+  background-image: url("../../images/user/outside_bg.jpg");
+  background-size: cover;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+@media (max-width: 991px) {
+  .navbar {
+    border-radius: 0px !important;
+  }
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.navbar button {
+  width: 175px;
+  height: 50px;
+  background-color: #00000000;
+  color: white;
+  border: 2px solid white;
+}
+.navbar svg {
+  width: 30px;
+}
+.dixor_blog {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+.dixor_blog h1 {
+  font-size: 3rem;
+}
+.dixor_blog a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .dixor_blog h1 {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 425px) {
+  .dixor_blog h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .dixor_blog span {
+    font-size: 30px;
+    margin-right: 50px;
+  }
+}
+
+.color {
+  color: #826a45;
+}
+
+.img_bord {
+  width: 330px;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+}
+.but {
+  width: 200px;
+  height: 65px;
+  border-radius: 25px;
+  background-color: #826a45;
+  border: none;
+  color: #fff;
+}
+
+.blog_content {
+  width: 80%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.675);
+  border-radius: 0 0 10px 10px;
+}
