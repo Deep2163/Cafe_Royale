@@ -33,6 +33,13 @@ import MyHistory from "./components/userPanel/MyHistory";
 import UserProfile from "./components/userPanel/UserProfile";
 import MenuUser from "./components/userPanel/MenuUser";
 
+//staff
+import StaffHome from "./components/staffPanel/StaffHome";
+import StaffProfile from "./components/staffPanel/StaffProfile";
+import TodayReservations from "./components/staffPanel/TodayReservations";
+import TodayOrders from "./components/staffPanel/TodayOrders";
+import StaffLogin from "./components/staffPanel/StaffLogin";
+
 function App() {
   return (
     <>
@@ -57,8 +64,16 @@ function App() {
             <Route path="history" element={<MyHistory />} />
           </Route>
 
-          <Route path="admin-login" element={<AdminLogin />} />
+          <Route path="staff-login" element={<StaffLogin />} />
+          <Route path="/staff" element={<StaffHome />}>
+            <Route path="" element={<StaffProfile />} />
+            <Route path="allmenu" element={<MenuUser />} />
+            <Route path="todayreservations" element={<TodayReservations />} />
+            <Route path="todayorders" element={<TodayOrders />} />
+            <Route path="history" element={<MyHistory />} />
+          </Route>
 
+          <Route path="admin-login" element={<AdminLogin />} />
           <Route path="/admin" element={<Admin />}>
             <Route path="" element={<Dashboard />} />
             <Route path="admin-profile" element={<AdminProfile />} />
