@@ -1,0 +1,16 @@
+.userPanel_navbar {
+  background-color: rgb(85, 45, 0) !important;
+}
+.userPanel_navbar li:hover {
+  background-color: rgb(133, 71, 0) !important;
+}
+.activetab {
+  background-color: rgb(133, 71, 0) !important;
+}
+.userPanel_nav {
+  background-color: rgb(85, 45, 0) !important;
+}
+.color_white {
+  stroke: white !important;
+  color: white !important;
+}

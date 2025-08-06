@@ -1,0 +1,64 @@
+.welcome_back {
+  font-family: "Times New Roman", Times, serif;
+}
+.admin_login_form {
+  color: black;
+  width: 100%;
+  padding: 30px;
+  max-height: 100% !important;
+}
+
+.form_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 15%);
+  width: 75vw;
+  height: 75vh;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .form_popup {
+    width: 90vw;
+    height: 90%;
+  }
+  .form_popup .login_cup {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .admin_login_form {
+    width: 90%;
+  }
+}
+.forgot {
+  color: #582f0e;
+  font-size: 0.8rem;
+}
+.inputs {
+  height: 40px;
+  border: 1px solid black;
+  color: black;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  height: auto !important;
+  width: auto !important;
+}
+
+input[type="submit"],
+button {
+  background-color: #582f0e;
+  color: white;
+  height: 40px;
+  border: none;
+}
+
+.pointer {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.admin_side {
+  background-color: #582f0e;
+}

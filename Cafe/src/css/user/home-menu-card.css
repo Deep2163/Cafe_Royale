@@ -1,0 +1,27 @@
+.menu_item_card {
+  height: 225px;
+  width: 100%;
+  margin: auto;
+  background-color: #3a2300;
+  color: #ffffff;
+  border-radius: 10%;
+}
+.menu_card_img {
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.price_badge {
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.price {
+  color: #3a2300 !important;
+}

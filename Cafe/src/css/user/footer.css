@@ -1,0 +1,65 @@
+.bg ul li {
+  list-style: none;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+.bg ul {
+  display: block;
+  padding-left: 0px;
+}
+.bg {
+  background-color: rgb(28, 28, 28);
+  z-index: 3;
+}
+.bg i {
+  width: 30px;
+}
+.bg .row {
+  margin-top: -30px;
+}
+.contacts {
+  height: 40px;
+  width: 40px;
+  background-color: #826a45;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+}
+.foot input {
+  background-color: rgba(240, 248, 255, 0);
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 80%;
+}
+.foot input[type="checkbox"] {
+  width: 15px;
+}
+.w {
+  color: white;
+}
+.right_border {
+  border-right: 1px solid white;
+}
+
+.footer_img {
+  background-color: rgb(38, 37, 37);
+  background-image: url("../../images/user/footer_bg.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  margin-top: -100px;
+}
+.footer_img .row {
+  height: 250px;
+}
+.call_circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #826a45;
+}
+.footer {
+  margin-top: -20px;
+}

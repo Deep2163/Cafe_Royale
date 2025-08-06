@@ -1,0 +1,109 @@
+.navbar_container {
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .navbar_container {
+    height: 80px;
+  }
+}
+.nav_header {
+  max-height: 80px;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  z-index: 9999 !important;
+  /* background-color: white; */
+}
+@media (max-width: 991px) {
+  .nav_header {
+    border-radius: 0px !important;
+  }
+}
+.admin_login {
+  color: #381800;
+}
+.home_ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  gap: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.home_ul_side {
+  display: block;
+  background-color: #fff;
+}
+.home_ul_side ul {
+  padding: 0;
+}
+
+.home_ul_side li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #381800;
+  width: 100%;
+}
+.home_ul li a {
+  text-decoration: none;
+  color: #381800;
+}
+
+.active_tab {
+  border-bottom: 1px solid black;
+}
+.pages_a ul li {
+  border-bottom: none !important;
+}
+
+.pages {
+  position: absolute;
+  display: none;
+  top: 65%;
+  background-color: #fff !important;
+  width: 20%;
+  height: 230px;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+.pages li {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.pages_a:hover {
+  .pages {
+    display: block;
+    background-color: #ffffffb9;
+  }
+}
+
+svg {
+  height: 30px;
+  margin: 0px 15px;
+  cursor: pointer;
+  color: #381800;
+}
+.full_screen_menu {
+  /* display: none; */
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease-in-out;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navtxt :hover {
+  color: #ffff !important;
+  background-color: #8a4413;
+  transition: all 0.2s ease-in-out;
+}
